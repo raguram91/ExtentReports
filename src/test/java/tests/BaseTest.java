@@ -14,6 +14,8 @@ import utils.logs.Log;
 public class BaseTest {
     public WebDriver driver;
     public HomePage homePage;
+    public String sampleEdit;
+    
 
     public WebDriver getDriver() {
         return driver;
